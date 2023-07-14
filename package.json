@@ -11,7 +11,7 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watchAll",
     "build": "./node_modules/.bin/rollup -c --bundleConfigAsCjs",
-    "prepare": "npm run clean && npm test && npm run build && npm run size-limit"
+    "prepare": "npm run clean && npm run test:coverage && npm run build && npm run size-limit"
   },
   "typings": "index.d.ts",
   "keywords": [
