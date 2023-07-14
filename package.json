@@ -2,7 +2,7 @@
   "name": "@doner/fetch",
   "version": "0.1.0",
   "description": "A handy Fetch API helper",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:maximlysenko/doner-fetch.git",
   "scripts": {
     "clean": "rimraf dist",
